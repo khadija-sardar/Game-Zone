@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css">
+    <!-- <link rel="stylesheet" href="responsive.css"> -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        body {
+            background-color: #2A3D45;
+            height: 100dvh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #gamezone {
+            width: 450px;
+            border: 10px solid rgb(252, 251, 251);
+            background-color: #DDC9B4;
+            border-radius: 40px;
+            padding: 30px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 40px;
+            font-size: 24px;
+            font-weight: bolder;
+            color: navy;
+        }
+
+        h1 {
+            color: black;
+        }
+
+        .game {
+            width: 100%;
+            border-radius: 20px;
+            border: 3px solid white;
+            background-color: #2B303A;
+            align-self: center;
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            padding: 20px;
+            transition: all .5s;
+
+        }
+
+        .game a {
+            font-size: 20px;
+            font-weight: bold;
+            text-decoration: none;
+            padding: 10px;
+            align-items: center;
+        }
+
+        .game:hover {
+            box-shadow: 2px 2px 10px 2px #2A3D45;
+        }
+
+        .memorycard {
+            color: rgb(167, 142, 241);
+        }
+
+        .snake {
+            color: rgb(133, 241, 121);
+        }
+
+        /* .wordle{
+            color: rgb(133, 241, 121);
+
+        } */
+        .mergingnum {
+            color: rgb(247, 142, 245);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="gamezone">
+        <h1>GAME ZONE</h1>
+        <div class="game">
+            <a href="memorycard/index2.html" class="memorycard">Memory Card Game</a>
+            <i class="fa-solid fa-hat-wizard fa-3x" style="color: rgb(177, 151, 252);"></i>
+        </div>
+        <div class="game">
+            <a href="snake/game1.html" class="snake">Snake Game</a>
+            <i class="fa-solid fa-worm fa-3x" style="color: rgb(136, 235, 126);"></i>
+        </div>
+        <!-- <div class="game">
+            <a href="worlde/index4.html" class="wordle">Wordle Game</a>
+            <i class="fa-solid fa-worm fa-3x" style="color: rgb(136, 235, 126);"></i>
+        </div> -->
+        <div class="game">
+            <a href="mergingnum/index3.html" class="mergingnum">Merging Number Game</a>
+            <i class="fa-solid fa-gamepad fa-3x" style="color: rgb(252, 151, 251);"></i>
+        </div>
+    </div>
+
+
+    </div>
+</body>
+
+</html>
